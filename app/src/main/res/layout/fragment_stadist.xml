@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/linear"
+        >
+
+        <CheckBox
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkboxValorate"
+            android:text="@string/valorate"
+            />
+        <CheckBox
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkboxCategory"
+            android:text="@string/categoty"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/linear"
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvOneStar"
+            android:text="@string/text_one_star"
+            />
+
+        <TextView
+            android:layout_below="@+id/txvOneStar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvTwoStar"
+            android:text="@string/text_two_star"
+            />
+
+        <TextView
+            android:layout_below="@+id/txvTwoStar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvThreeStar"
+            android:text="@string/text_three_star"
+            />
+
+
+        <TextView
+            android:layout_below="@+id/txvThreeStar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvFourStar"
+            android:text="@string/text_four_star"
+            />
+
+
+        <TextView
+            android:layout_below="@+id/txvFourStar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvFiveStar"
+            android:text="@string/text_five_star"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/wiget_margin_top"
+        android:layout_below="@+id/relative"
+        android:id="@+id/relativeCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvMuseum"
+            android:text="@string/text_museum"
+            />
+
+        <TextView
+            android:layout_below="@+id/txvMuseum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvTeatre"
+            android:text="@string/text_teatre"
+            />
+
+        <TextView
+            android:layout_below="@+id/txvTeatre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvBar"
+            android:text="@string/text_bar"
+            />
+
+
+        <TextView
+            android:layout_below="@+id/txvBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txvMonumens"
+            android:text="@string/text_monuments"
+            />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

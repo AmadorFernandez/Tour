@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imvInteresPointItem"
+        android:layout_width="@dimen/imv_list"
+        android:layout_height="@dimen/imv_list"
+        android:layout_marginTop="@dimen/wiget_margin_top"
+        android:layout_marginLeft="@dimen/wiget_margin_top"
+        android:src="@drawable/museum"
+        />
+
+    <TextView
+        android:id="@+id/txvInterestPointItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imvInteresPointItem"
+        android:layout_marginLeft="@dimen/wiget_margin_top"
+        android:text="apojsdgoioi"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="@dimen/wiget_margin_top"
+        />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imvInteresPointItem"
+        android:rating="5"
+        android:id="@+id/iconRating"
+        />
+
+
+</RelativeLayout>

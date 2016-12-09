@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Tour</string>
+    <string name="text_email">Email</string>
+    <string name="text_name">Nombre</string>
+    <string name="text_ok">Entrar</string>
+    <string name="invalid_email">Formato de email incorrecto</string>
+    <string name="invalid_user_name">Minimo 5 caracteres y maxímo 20</string>
+    <string name="add_new_point">Nuevo punto de interes</string>
+    <string name="text_list">Listado de puntos de interes</string>
+    <string name="text_stadist">Estadisticas</string>
+    <string name="text_about">Creditos</string>
+    <string name="text_exit">Salir</string>
+    <string name="alert">Atención!</string>
+    <string name="alert_exit_msg">Esta apunto de salir y borrar sus datos de usuario ¿Esta seguro que desea hacerlo?</string>
+    <string name="acept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="text_about_activity">Autor: Amador Fernandez Gonzalez\n\n
+    Descripción del ejercicio:\n\n
+        Se trata de un simple ejercicio en el que un usuario puede ver, incluir, valorar y eliminar
+        los puntos de interes de la ciudad de Córdoba.
+
+    </string>
+    <string name="not_interface_implents">La activity debe implementar la interfaz IHome.View</string>
+    <string name="action_sort_name">Ordenar por nombre</string>
+    <string name="action_sort_category">Ordenar por categoria</string>
+    <string name="action_sort_rating">Ordenar por valoracion</string>
+    <string name="action_filter">Filtrar</string>
+    <string name="selction_msg">Seleccione la categoria por la que desea filtrar</string>
+    <string name="contains_name">Ya hay un punto de interes con ese nombre</string>
+    <string name="rating">Valoracion</string>
+    <string name="create_new_point">Creado nuevo punto de interes</string>
+    <string name="name_empty">El nombre no puede ser vacio</string>
+    <string name="valorate">Valoracion</string>
+    <string name="categoty">Categorias</string>
+    <string name="text_one_star">Total de puntos con una estrella: </string>
+    <string name="text_two_star">Total de puntos con dos estrellas: </string>
+    <string name="text_three_star">Total de puntos con tres estrellas: </string>
+    <string name="text_four_star">Total de puntos con cuatro estrellas: </string>
+    <string name="text_five_star">Total de puntos con cinco estrellas: </string>
+    <string name="text_museum">Museos:</string>
+    <string name="text_teatre">Teatros:</string>
+    <string name="text_bar">Bares:</string>
+    <string name="text_monuments">Monumentos:</string>
+
+
+    <string-array name="category_name">
+
+        <item>Museo</item>
+        <item>Teatro</item>
+        <item>Bar</item>
+        <item>Monumento</item>
+
+
+    </string-array>
+
+    <string-array name="category_filter">
+
+        <item>Museo</item>
+        <item>Teatro</item>
+        <item>Bar</item>
+        <item>Monumento</item>
+        <item>Todos</item>
+
+    </string-array>
+
+</resources>
